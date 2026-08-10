@@ -12,6 +12,7 @@ add_library(pybind11-utils STATIC
 mo2_configure_target(pybind11-utils
 	NO_SOURCES
 	WARNINGS 4
+	WERROR ON
 	EXTERNAL_WARNINGS 4
 	AUTOMOC OFF
 	TRANSLATIONS OFF

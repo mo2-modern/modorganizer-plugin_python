@@ -8,6 +8,7 @@ add_library(proxy SHARED proxypython.cpp proxypython.h)
 mo2_configure_plugin(proxy
     NO_SOURCES
     WARNINGS 4
+    WERROR ON
     EXTERNAL_WARNINGS 4
     TRANSLATIONS OFF
     EXTRA_TRANSLATIONS

@@ -12,6 +12,7 @@ add_library(runner SHARED
 mo2_configure_target(runner
 	NO_SOURCES
 	WARNINGS 4
+	WERROR ON
 	EXTERNAL_WARNINGS 4
 	AUTOMOC ON
 	TRANSLATIONS OFF

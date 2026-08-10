@@ -8,6 +8,7 @@ mo2_default_source_group()
 mo2_configure_target(mobase
 	NO_SOURCES
 	WARNINGS 4
+	WERROR ON
 	EXTERNAL_WARNINGS 4
 	AUTOMOC ON
 	TRANSLATIONS OFF
